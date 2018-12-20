@@ -29,18 +29,52 @@ Pod::Spec.new do |s|
 
    s.platform     = :ios, "8.0"
 
-  s.source       = { :git => "https://github.com/GG-beyond/JRTestPassword.git", :tag => "0.0.2" }
-
+  s.source       = { :git => "https://github.com/GG-beyond/JRTestPassword.git", :tag => "0.0.3" }
 
   s.source_files  = "JRTestPassword/WBLoginSDK/*.{h,m,entitlements}"
+
   s.subspec 'WBLoginSDK' do |ss|
+
 
 	ss.subspec 'Dependence' do |sss|
 
+		sss.subspec 'WeiboSDK' do |ssss|
+			ssss.source_files= "JRTestPassword/WBLoginSDK/Dependence/WeiboSDK/*"
+		end
+		sss.subspec 'AliPay' do |ssss|
+			ssss.source_files= "JRTestPassword/WBLoginSDK/Dependence/AliPay/*"
+		end
+		sss.subspec 'GateWaySDK' do |ssss|
+			ssss.source_files= "JRTestPassword/WBLoginSDK/Dependence/GateWaySDK/*"
+		end
+		sss.subspec 'ISDSDK' do |ssss|
+			ssss.source_files= "JRTestPassword/WBLoginSDK/Dependence/ISDSDK/*"
+		end
+		sss.subspec 'Pay58' do |ssss|
+			ssss.source_files= "JRTestPassword/WBLoginSDK/Dependence/Pay58/*"
+		end
+		sss.subspec 'QQSDK' do |ssss|
+			ssss.source_files= "JRTestPassword/WBLoginSDK/Dependence/QQSDK/*"
+		end
+		sss.subspec 'SSL' do |ssss|
+			ssss.source_files= "JRTestPassword/WBLoginSDK/Dependence/SSL/*"
+		end
+		sss.subspec 'TencentSDK' do |ssss|
+			ssss.source_files= "JRTestPassword/WBLoginSDK/Dependence/TencentSDK/*"
+		end
+		sss.subspec 'WBPassportSDK' do |ssss|
+			ssss.source_files= "JRTestPassword/WBLoginSDK/Dependence/WBPassportSDK/*"
+		end
+		sss.subspec 'WeChatSDK' do |ssss|
+			ssss.source_files= "JRTestPassword/WBLoginSDK/Dependence/WeChatSDK/*"
+		end
 		sss.subspec 'ZMSDK' do |ssss|
 			ssss.source_files= "JRTestPassword/WBLoginSDK/Dependence/ZMSDK/*"
-		end		
+		end
+
+			
 	end
+
   end
 
 
