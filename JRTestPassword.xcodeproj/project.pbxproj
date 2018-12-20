@@ -51,7 +51,6 @@
 		372F8EA121CB875800414221 /* Resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 372F8E7A21CB875700414221 /* Resource.bundle */; };
 		372F8EA221CB875800414221 /* SafetyphoneSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372F8E7B21CB875700414221 /* SafetyphoneSDK.framework */; };
 		372F8EA321CB875800414221 /* EAccountSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372F8E7C21CB875700414221 /* EAccountSDK.framework */; };
-		372F8EA421CB875800414221 /* JRConfusionHHJPassportService.m in Sources */ = {isa = PBXBuildFile; fileRef = 372F8E7D21CB875700414221 /* JRConfusionHHJPassportService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -131,9 +130,7 @@
 		372F8E7A21CB875700414221 /* Resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Resource.bundle; sourceTree = "<group>"; };
 		372F8E7B21CB875700414221 /* SafetyphoneSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SafetyphoneSDK.framework; sourceTree = "<group>"; };
 		372F8E7C21CB875700414221 /* EAccountSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EAccountSDK.framework; sourceTree = "<group>"; };
-		372F8E7D21CB875700414221 /* JRConfusionHHJPassportService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRConfusionHHJPassportService.m; sourceTree = "<group>"; };
 		372F8E7E21CB875700414221 /* 58tongcheng.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = 58tongcheng.entitlements; sourceTree = "<group>"; };
-		372F8E7F21CB875700414221 /* JRConfusionHHJPassportService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRConfusionHHJPassportService.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -242,9 +239,7 @@
 			isa = PBXGroup;
 			children = (
 				372F8E4621CB875700414221 /* Dependence */,
-				372F8E7D21CB875700414221 /* JRConfusionHHJPassportService.m */,
 				372F8E7E21CB875700414221 /* 58tongcheng.entitlements */,
-				372F8E7F21CB875700414221 /* JRConfusionHHJPassportService.h */,
 			);
 			path = WBLoginSDK;
 			sourceTree = "<group>";
@@ -532,7 +527,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				372F8E1821CB873900414221 /* ViewController.m in Sources */,
-				372F8EA421CB875800414221 /* JRConfusionHHJPassportService.m in Sources */,
 				372F8E2321CB873A00414221 /* main.m in Sources */,
 				372F8E1521CB873900414221 /* AppDelegate.m in Sources */,
 			);
