@@ -36,7 +36,10 @@ Pod::Spec.new do |s|
   s.ios.vendored_frameworks = 'JRTestPassword/WBLoginSDK/Dependence/**/*.framework' 
   s.resources = "JRTestPassword/WBLoginSDK/Dependence/**/*.bundle"
 
+  s.frameworks = "UIKit", "Foundation","Photos","StoreKit","SystemConfiguration","MobileCoreServices","WebKit","CoreMotion","CoreMedia","AudioToolbox","CoreTelephony","AVFoundation","GLKit","Accelerate","ImageIO","AdSupport"
 
+
+  s.libraries = "z.1.2.8", "z", "c++","icucore","sqlite3","sqlite3.0"
   s.subspec 'WBLoginSDK' do |ss|
 
 	
@@ -44,7 +47,6 @@ Pod::Spec.new do |s|
 
 		sss.subspec 'WeiboSDK' do |ssss|
 			ssss.source_files= "JRTestPassword/WBLoginSDK/Dependence/WeiboSDK/*"
-
 		end
 		sss.subspec 'AliPay' do |ssss|
 			ssss.source_files= "JRTestPassword/WBLoginSDK/Dependence/AliPay/*"
