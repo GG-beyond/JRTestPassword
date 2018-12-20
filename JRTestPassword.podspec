@@ -29,17 +29,22 @@ Pod::Spec.new do |s|
 
    s.platform     = :ios, "8.0"
 
-  s.source       = { :git => "https://github.com/GG-beyond/JRTestPassword.git", :tag => "0.0.3" }
+  s.source       = { :git => "https://github.com/GG-beyond/JRTestPassword.git", :tag => "0.0.4" }
 
   s.source_files  = "JRTestPassword/WBLoginSDK/*.{h,m,entitlements}"
 
+  s.ios.vendored_frameworks = 'JRTestPassword/WBLoginSDK/Dependence/**/*.framework' 
+  s.resources = "JRTestPassword/WBLoginSDK/Dependence/**/*.bundle"
+
+
   s.subspec 'WBLoginSDK' do |ss|
 
-
+	
 	ss.subspec 'Dependence' do |sss|
 
 		sss.subspec 'WeiboSDK' do |ssss|
 			ssss.source_files= "JRTestPassword/WBLoginSDK/Dependence/WeiboSDK/*"
+
 		end
 		sss.subspec 'AliPay' do |ssss|
 			ssss.source_files= "JRTestPassword/WBLoginSDK/Dependence/AliPay/*"
@@ -61,6 +66,7 @@ Pod::Spec.new do |s|
 		end
 		sss.subspec 'TencentSDK' do |ssss|
 			ssss.source_files= "JRTestPassword/WBLoginSDK/Dependence/TencentSDK/*"
+
 		end
 		sss.subspec 'WBPassportSDK' do |ssss|
 			ssss.source_files= "JRTestPassword/WBLoginSDK/Dependence/WBPassportSDK/*"
