@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
 
    s.platform     = :ios, "8.0"
 
-  s.source       = { :git => "https://github.com/GG-beyond/JRTestPassword.git", :tag => "0.0.4" }
+  s.source       = { :git => "https://github.com/GG-beyond/JRTestPassword.git", :tag => "0.0.5" }
 
   s.source_files  = "JRTestPassword/WBLoginSDK/*.{h,m,entitlements}"
 
