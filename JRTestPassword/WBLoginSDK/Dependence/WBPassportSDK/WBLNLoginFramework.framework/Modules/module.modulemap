@@ -1,0 +1,6 @@
+framework module WBLNLoginFramework {
+  umbrella header "WBLNLoginFramework.h"
+
+  export *
+  module * { export * }
+}

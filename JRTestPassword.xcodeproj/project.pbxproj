@@ -15,6 +15,43 @@
 		372F8E2321CB873A00414221 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 372F8E2221CB873A00414221 /* main.m */; };
 		372F8E2D21CB873A00414221 /* JRTestPasswordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 372F8E2C21CB873A00414221 /* JRTestPasswordTests.m */; };
 		372F8E3821CB873A00414221 /* JRTestPasswordUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 372F8E3721CB873A00414221 /* JRTestPasswordUITests.m */; };
+		372F8E8021CB875700414221 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 372F8E4821CB875700414221 /* libcrypto.a */; };
+		372F8E8121CB875700414221 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 372F8E4921CB875700414221 /* libssl.a */; };
+		372F8E8221CB875700414221 /* WBLNLogin.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 372F8E4B21CB875700414221 /* WBLNLogin.bundle */; };
+		372F8E8321CB875700414221 /* WBLNLoginFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372F8E4C21CB875700414221 /* WBLNLoginFramework.framework */; };
+		372F8E8421CB875700414221 /* WeiboSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 372F8E4E21CB875700414221 /* WeiboSDK.bundle */; };
+		372F8E8521CB875700414221 /* libWeiboSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 372F8E4F21CB875700414221 /* libWeiboSDK.a */; };
+		372F8E8621CB875700414221 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 372F8E5521CB875700414221 /* README.txt */; };
+		372F8E8721CB875700414221 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 372F8E5721CB875700414221 /* libWeChatSDK.a */; };
+		372F8E8821CB875700414221 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 372F8E5921CB875700414221 /* AlipaySDK.bundle */; };
+		372F8E8921CB875700414221 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372F8E5A21CB875700414221 /* AlipaySDK.framework */; };
+		372F8E8A21CB875700414221 /* ISDCaptcha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372F8E5C21CB875700414221 /* ISDCaptcha.framework */; };
+		372F8E8B21CB875700414221 /* ISDResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 372F8E5D21CB875700414221 /* ISDResource.bundle */; };
+		372F8E8C21CB875700414221 /* ISDCertificationSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372F8E5E21CB875700414221 /* ISDCertificationSDK.framework */; };
+		372F8E8D21CB875700414221 /* ISDCaptchaResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 372F8E5F21CB875700414221 /* ISDCaptchaResource.bundle */; };
+		372F8E8E21CB875700414221 /* ZMCert.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372F8E6121CB875700414221 /* ZMCert.framework */; };
+		372F8E8F21CB875700414221 /* ZMCert.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 372F8E6221CB875700414221 /* ZMCert.bundle */; };
+		372F8E9021CB875700414221 /* YTIllumination.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372F8E6421CB875700414221 /* YTIllumination.framework */; };
+		372F8E9121CB875700414221 /* WBCloudReflectionFaceVerify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372F8E6521CB875700414221 /* WBCloudReflectionFaceVerify.framework */; };
+		372F8E9221CB875700414221 /* rapidnet_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372F8E6621CB875700414221 /* rapidnet_ios.framework */; };
+		372F8E9321CB875700414221 /* YTCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372F8E6721CB875700414221 /* YTCommon.framework */; };
+		372F8E9421CB875700414221 /* ufa.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 372F8E6821CB875700414221 /* ufa.bundle */; };
+		372F8E9521CB875700414221 /* YTPoseDetector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372F8E6921CB875700414221 /* YTPoseDetector.framework */; };
+		372F8E9621CB875800414221 /* faceLiveReflect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372F8E6A21CB875700414221 /* faceLiveReflect.framework */; };
+		372F8E9721CB875800414221 /* detector.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 372F8E6B21CB875700414221 /* detector.bundle */; };
+		372F8E9821CB875800414221 /* YTTrackPro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372F8E6C21CB875700414221 /* YTTrackPro.framework */; };
+		372F8E9921CB875800414221 /* PE.dat in Resources */ = {isa = PBXBuildFile; fileRef = 372F8E6D21CB875700414221 /* PE.dat */; };
+		372F8E9A21CB875800414221 /* WBCloudReflectionFaceVerify.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 372F8E6E21CB875700414221 /* WBCloudReflectionFaceVerify.bundle */; };
+		372F8E9B21CB875800414221 /* NextCV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372F8E6F21CB875700414221 /* NextCV.framework */; };
+		372F8E9C21CB875800414221 /* libPay58.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 372F8E7121CB875700414221 /* libPay58.a */; };
+		372F8E9D21CB875800414221 /* Pay58.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 372F8E7421CB875700414221 /* Pay58.bundle */; };
+		372F8E9E21CB875800414221 /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 372F8E7621CB875700414221 /* TencentOpenApi_IOS_Bundle.bundle */; };
+		372F8E9F21CB875800414221 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372F8E7721CB875700414221 /* TencentOpenAPI.framework */; };
+		372F8EA021CB875800414221 /* TYRZSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372F8E7921CB875700414221 /* TYRZSDK.framework */; };
+		372F8EA121CB875800414221 /* Resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 372F8E7A21CB875700414221 /* Resource.bundle */; };
+		372F8EA221CB875800414221 /* SafetyphoneSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372F8E7B21CB875700414221 /* SafetyphoneSDK.framework */; };
+		372F8EA321CB875800414221 /* EAccountSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372F8E7C21CB875700414221 /* EAccountSDK.framework */; };
+		372F8EA421CB875800414221 /* JRConfusionHHJPassportService.m in Sources */ = {isa = PBXBuildFile; fileRef = 372F8E7D21CB875700414221 /* JRConfusionHHJPassportService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +88,52 @@
 		372F8E3321CB873A00414221 /* JRTestPasswordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JRTestPasswordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		372F8E3721CB873A00414221 /* JRTestPasswordUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JRTestPasswordUITests.m; sourceTree = "<group>"; };
 		372F8E3921CB873A00414221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		372F8E4821CB875700414221 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		372F8E4921CB875700414221 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+		372F8E4B21CB875700414221 /* WBLNLogin.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WBLNLogin.bundle; sourceTree = "<group>"; };
+		372F8E4C21CB875700414221 /* WBLNLoginFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WBLNLoginFramework.framework; sourceTree = "<group>"; };
+		372F8E4E21CB875700414221 /* WeiboSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WeiboSDK.bundle; sourceTree = "<group>"; };
+		372F8E4F21CB875700414221 /* libWeiboSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeiboSDK.a; sourceTree = "<group>"; };
+		372F8E5021CB875700414221 /* WBHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBHttpRequest.h; sourceTree = "<group>"; };
+		372F8E5121CB875700414221 /* WeiboSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboSDK.h; sourceTree = "<group>"; };
+		372F8E5321CB875700414221 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		372F8E5421CB875700414221 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		372F8E5521CB875700414221 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		372F8E5621CB875700414221 /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		372F8E5721CB875700414221 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		372F8E5921CB875700414221 /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		372F8E5A21CB875700414221 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		372F8E5C21CB875700414221 /* ISDCaptcha.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ISDCaptcha.framework; sourceTree = "<group>"; };
+		372F8E5D21CB875700414221 /* ISDResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ISDResource.bundle; sourceTree = "<group>"; };
+		372F8E5E21CB875700414221 /* ISDCertificationSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ISDCertificationSDK.framework; sourceTree = "<group>"; };
+		372F8E5F21CB875700414221 /* ISDCaptchaResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ISDCaptchaResource.bundle; sourceTree = "<group>"; };
+		372F8E6121CB875700414221 /* ZMCert.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZMCert.framework; sourceTree = "<group>"; };
+		372F8E6221CB875700414221 /* ZMCert.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZMCert.bundle; sourceTree = "<group>"; };
+		372F8E6421CB875700414221 /* YTIllumination.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YTIllumination.framework; sourceTree = "<group>"; };
+		372F8E6521CB875700414221 /* WBCloudReflectionFaceVerify.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WBCloudReflectionFaceVerify.framework; sourceTree = "<group>"; };
+		372F8E6621CB875700414221 /* rapidnet_ios.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = rapidnet_ios.framework; sourceTree = "<group>"; };
+		372F8E6721CB875700414221 /* YTCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YTCommon.framework; sourceTree = "<group>"; };
+		372F8E6821CB875700414221 /* ufa.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ufa.bundle; sourceTree = "<group>"; };
+		372F8E6921CB875700414221 /* YTPoseDetector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YTPoseDetector.framework; sourceTree = "<group>"; };
+		372F8E6A21CB875700414221 /* faceLiveReflect.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = faceLiveReflect.framework; sourceTree = "<group>"; };
+		372F8E6B21CB875700414221 /* detector.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = detector.bundle; sourceTree = "<group>"; };
+		372F8E6C21CB875700414221 /* YTTrackPro.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YTTrackPro.framework; sourceTree = "<group>"; };
+		372F8E6D21CB875700414221 /* PE.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = PE.dat; sourceTree = "<group>"; };
+		372F8E6E21CB875700414221 /* WBCloudReflectionFaceVerify.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WBCloudReflectionFaceVerify.bundle; sourceTree = "<group>"; };
+		372F8E6F21CB875700414221 /* NextCV.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NextCV.framework; sourceTree = "<group>"; };
+		372F8E7121CB875700414221 /* libPay58.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPay58.a; sourceTree = "<group>"; };
+		372F8E7221CB875700414221 /* Pay58.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pay58.h; sourceTree = "<group>"; };
+		372F8E7321CB875700414221 /* Pay58ClieckDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pay58ClieckDefine.h; sourceTree = "<group>"; };
+		372F8E7421CB875700414221 /* Pay58.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Pay58.bundle; sourceTree = "<group>"; };
+		372F8E7621CB875700414221 /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		372F8E7721CB875700414221 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		372F8E7921CB875700414221 /* TYRZSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TYRZSDK.framework; sourceTree = "<group>"; };
+		372F8E7A21CB875700414221 /* Resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Resource.bundle; sourceTree = "<group>"; };
+		372F8E7B21CB875700414221 /* SafetyphoneSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SafetyphoneSDK.framework; sourceTree = "<group>"; };
+		372F8E7C21CB875700414221 /* EAccountSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EAccountSDK.framework; sourceTree = "<group>"; };
+		372F8E7D21CB875700414221 /* JRConfusionHHJPassportService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRConfusionHHJPassportService.m; sourceTree = "<group>"; };
+		372F8E7E21CB875700414221 /* 58tongcheng.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = 58tongcheng.entitlements; sourceTree = "<group>"; };
+		372F8E7F21CB875700414221 /* JRConfusionHHJPassportService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRConfusionHHJPassportService.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +141,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				372F8E9621CB875800414221 /* faceLiveReflect.framework in Frameworks */,
+				372F8E8121CB875700414221 /* libssl.a in Frameworks */,
+				372F8E8021CB875700414221 /* libcrypto.a in Frameworks */,
+				372F8EA221CB875800414221 /* SafetyphoneSDK.framework in Frameworks */,
+				372F8E9821CB875800414221 /* YTTrackPro.framework in Frameworks */,
+				372F8EA021CB875800414221 /* TYRZSDK.framework in Frameworks */,
+				372F8E9521CB875700414221 /* YTPoseDetector.framework in Frameworks */,
+				372F8E8321CB875700414221 /* WBLNLoginFramework.framework in Frameworks */,
+				372F8E8521CB875700414221 /* libWeiboSDK.a in Frameworks */,
+				372F8E9021CB875700414221 /* YTIllumination.framework in Frameworks */,
+				372F8E9F21CB875800414221 /* TencentOpenAPI.framework in Frameworks */,
+				372F8E8721CB875700414221 /* libWeChatSDK.a in Frameworks */,
+				372F8E9321CB875700414221 /* YTCommon.framework in Frameworks */,
+				372F8E8921CB875700414221 /* AlipaySDK.framework in Frameworks */,
+				372F8E9B21CB875800414221 /* NextCV.framework in Frameworks */,
+				372F8E8A21CB875700414221 /* ISDCaptcha.framework in Frameworks */,
+				372F8E8C21CB875700414221 /* ISDCertificationSDK.framework in Frameworks */,
+				372F8EA321CB875800414221 /* EAccountSDK.framework in Frameworks */,
+				372F8E9121CB875700414221 /* WBCloudReflectionFaceVerify.framework in Frameworks */,
+				372F8E9C21CB875800414221 /* libPay58.a in Frameworks */,
+				372F8E8E21CB875700414221 /* ZMCert.framework in Frameworks */,
+				372F8E9221CB875700414221 /* rapidnet_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +210,7 @@
 				372F8E1421CB873900414221 /* AppDelegate.m */,
 				372F8E1621CB873900414221 /* ViewController.h */,
 				372F8E1721CB873900414221 /* ViewController.m */,
+				372F8E4521CB875700414221 /* WBLoginSDK */,
 				372F8E1921CB873900414221 /* Main.storyboard */,
 				372F8E1C21CB873A00414221 /* Assets.xcassets */,
 				372F8E1E21CB873A00414221 /* LaunchScreen.storyboard */,
@@ -130,6 +236,155 @@
 				372F8E3921CB873A00414221 /* Info.plist */,
 			);
 			path = JRTestPasswordUITests;
+			sourceTree = "<group>";
+		};
+		372F8E4521CB875700414221 /* WBLoginSDK */ = {
+			isa = PBXGroup;
+			children = (
+				372F8E4621CB875700414221 /* Dependence */,
+				372F8E7D21CB875700414221 /* JRConfusionHHJPassportService.m */,
+				372F8E7E21CB875700414221 /* 58tongcheng.entitlements */,
+				372F8E7F21CB875700414221 /* JRConfusionHHJPassportService.h */,
+			);
+			path = WBLoginSDK;
+			sourceTree = "<group>";
+		};
+		372F8E4621CB875700414221 /* Dependence */ = {
+			isa = PBXGroup;
+			children = (
+				372F8E4721CB875700414221 /* SSL */,
+				372F8E4A21CB875700414221 /* WBPassportSDK */,
+				372F8E4D21CB875700414221 /* WeiboSDK */,
+				372F8E5221CB875700414221 /* WeChatSDK */,
+				372F8E5821CB875700414221 /* AliPay */,
+				372F8E5B21CB875700414221 /* ISDSDK */,
+				372F8E6021CB875700414221 /* ZMSDK */,
+				372F8E6321CB875700414221 /* TencentSDK */,
+				372F8E7021CB875700414221 /* Pay58 */,
+				372F8E7521CB875700414221 /* QQSDK */,
+				372F8E7821CB875700414221 /* GateWaySDK */,
+			);
+			path = Dependence;
+			sourceTree = "<group>";
+		};
+		372F8E4721CB875700414221 /* SSL */ = {
+			isa = PBXGroup;
+			children = (
+				372F8E4821CB875700414221 /* libcrypto.a */,
+				372F8E4921CB875700414221 /* libssl.a */,
+			);
+			path = SSL;
+			sourceTree = "<group>";
+		};
+		372F8E4A21CB875700414221 /* WBPassportSDK */ = {
+			isa = PBXGroup;
+			children = (
+				372F8E4B21CB875700414221 /* WBLNLogin.bundle */,
+				372F8E4C21CB875700414221 /* WBLNLoginFramework.framework */,
+			);
+			path = WBPassportSDK;
+			sourceTree = "<group>";
+		};
+		372F8E4D21CB875700414221 /* WeiboSDK */ = {
+			isa = PBXGroup;
+			children = (
+				372F8E4E21CB875700414221 /* WeiboSDK.bundle */,
+				372F8E4F21CB875700414221 /* libWeiboSDK.a */,
+				372F8E5021CB875700414221 /* WBHttpRequest.h */,
+				372F8E5121CB875700414221 /* WeiboSDK.h */,
+			);
+			path = WeiboSDK;
+			sourceTree = "<group>";
+		};
+		372F8E5221CB875700414221 /* WeChatSDK */ = {
+			isa = PBXGroup;
+			children = (
+				372F8E5321CB875700414221 /* WXApi.h */,
+				372F8E5421CB875700414221 /* WXApiObject.h */,
+				372F8E5521CB875700414221 /* README.txt */,
+				372F8E5621CB875700414221 /* WechatAuthSDK.h */,
+				372F8E5721CB875700414221 /* libWeChatSDK.a */,
+			);
+			path = WeChatSDK;
+			sourceTree = "<group>";
+		};
+		372F8E5821CB875700414221 /* AliPay */ = {
+			isa = PBXGroup;
+			children = (
+				372F8E5921CB875700414221 /* AlipaySDK.bundle */,
+				372F8E5A21CB875700414221 /* AlipaySDK.framework */,
+			);
+			path = AliPay;
+			sourceTree = "<group>";
+		};
+		372F8E5B21CB875700414221 /* ISDSDK */ = {
+			isa = PBXGroup;
+			children = (
+				372F8E5C21CB875700414221 /* ISDCaptcha.framework */,
+				372F8E5D21CB875700414221 /* ISDResource.bundle */,
+				372F8E5E21CB875700414221 /* ISDCertificationSDK.framework */,
+				372F8E5F21CB875700414221 /* ISDCaptchaResource.bundle */,
+			);
+			path = ISDSDK;
+			sourceTree = "<group>";
+		};
+		372F8E6021CB875700414221 /* ZMSDK */ = {
+			isa = PBXGroup;
+			children = (
+				372F8E6121CB875700414221 /* ZMCert.framework */,
+				372F8E6221CB875700414221 /* ZMCert.bundle */,
+			);
+			path = ZMSDK;
+			sourceTree = "<group>";
+		};
+		372F8E6321CB875700414221 /* TencentSDK */ = {
+			isa = PBXGroup;
+			children = (
+				372F8E6421CB875700414221 /* YTIllumination.framework */,
+				372F8E6521CB875700414221 /* WBCloudReflectionFaceVerify.framework */,
+				372F8E6621CB875700414221 /* rapidnet_ios.framework */,
+				372F8E6721CB875700414221 /* YTCommon.framework */,
+				372F8E6821CB875700414221 /* ufa.bundle */,
+				372F8E6921CB875700414221 /* YTPoseDetector.framework */,
+				372F8E6A21CB875700414221 /* faceLiveReflect.framework */,
+				372F8E6B21CB875700414221 /* detector.bundle */,
+				372F8E6C21CB875700414221 /* YTTrackPro.framework */,
+				372F8E6D21CB875700414221 /* PE.dat */,
+				372F8E6E21CB875700414221 /* WBCloudReflectionFaceVerify.bundle */,
+				372F8E6F21CB875700414221 /* NextCV.framework */,
+			);
+			path = TencentSDK;
+			sourceTree = "<group>";
+		};
+		372F8E7021CB875700414221 /* Pay58 */ = {
+			isa = PBXGroup;
+			children = (
+				372F8E7121CB875700414221 /* libPay58.a */,
+				372F8E7221CB875700414221 /* Pay58.h */,
+				372F8E7321CB875700414221 /* Pay58ClieckDefine.h */,
+				372F8E7421CB875700414221 /* Pay58.bundle */,
+			);
+			path = Pay58;
+			sourceTree = "<group>";
+		};
+		372F8E7521CB875700414221 /* QQSDK */ = {
+			isa = PBXGroup;
+			children = (
+				372F8E7621CB875700414221 /* TencentOpenApi_IOS_Bundle.bundle */,
+				372F8E7721CB875700414221 /* TencentOpenAPI.framework */,
+			);
+			path = QQSDK;
+			sourceTree = "<group>";
+		};
+		372F8E7821CB875700414221 /* GateWaySDK */ = {
+			isa = PBXGroup;
+			children = (
+				372F8E7921CB875700414221 /* TYRZSDK.framework */,
+				372F8E7A21CB875700414221 /* Resource.bundle */,
+				372F8E7B21CB875700414221 /* SafetyphoneSDK.framework */,
+				372F8E7C21CB875700414221 /* EAccountSDK.framework */,
+			);
+			path = GateWaySDK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,8 +490,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				372F8E9E21CB875800414221 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
+				372F8E9921CB875800414221 /* PE.dat in Resources */,
+				372F8E9D21CB875800414221 /* Pay58.bundle in Resources */,
+				372F8E9A21CB875800414221 /* WBCloudReflectionFaceVerify.bundle in Resources */,
+				372F8E9421CB875700414221 /* ufa.bundle in Resources */,
+				372F8E9721CB875800414221 /* detector.bundle in Resources */,
+				372F8E8221CB875700414221 /* WBLNLogin.bundle in Resources */,
 				372F8E2021CB873A00414221 /* LaunchScreen.storyboard in Resources */,
+				372F8E8F21CB875700414221 /* ZMCert.bundle in Resources */,
+				372F8E8B21CB875700414221 /* ISDResource.bundle in Resources */,
+				372F8E8821CB875700414221 /* AlipaySDK.bundle in Resources */,
+				372F8E8421CB875700414221 /* WeiboSDK.bundle in Resources */,
 				372F8E1D21CB873A00414221 /* Assets.xcassets in Resources */,
+				372F8EA121CB875800414221 /* Resource.bundle in Resources */,
+				372F8E8D21CB875700414221 /* ISDCaptchaResource.bundle in Resources */,
+				372F8E8621CB875700414221 /* README.txt in Resources */,
 				372F8E1B21CB873900414221 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,6 +532,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				372F8E1821CB873900414221 /* ViewController.m in Sources */,
+				372F8EA421CB875800414221 /* JRConfusionHHJPassportService.m in Sources */,
 				372F8E2321CB873A00414221 /* main.m in Sources */,
 				372F8E1521CB873900414221 /* AppDelegate.m in Sources */,
 			);
@@ -437,10 +707,27 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2HTTP44QH5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JRTestPassword/WBLoginSDK/Dependence/WBPassportSDK",
+					"$(PROJECT_DIR)/JRTestPassword/WBLoginSDK/Dependence/AliPay",
+					"$(PROJECT_DIR)/JRTestPassword/WBLoginSDK/Dependence/ISDSDK",
+					"$(PROJECT_DIR)/JRTestPassword/WBLoginSDK/Dependence/ZMSDK",
+					"$(PROJECT_DIR)/JRTestPassword/WBLoginSDK/Dependence/TencentSDK",
+					"$(PROJECT_DIR)/JRTestPassword/WBLoginSDK/Dependence/QQSDK",
+					"$(PROJECT_DIR)/JRTestPassword/WBLoginSDK/Dependence/GateWaySDK",
+				);
 				INFOPLIST_FILE = JRTestPassword/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JRTestPassword/WBLoginSDK/Dependence/SSL",
+					"$(PROJECT_DIR)/JRTestPassword/WBLoginSDK/Dependence/WeiboSDK",
+					"$(PROJECT_DIR)/JRTestPassword/WBLoginSDK/Dependence/WeChatSDK",
+					"$(PROJECT_DIR)/JRTestPassword/WBLoginSDK/Dependence/Pay58",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.58.JRTestPassword;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -454,10 +741,27 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2HTTP44QH5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JRTestPassword/WBLoginSDK/Dependence/WBPassportSDK",
+					"$(PROJECT_DIR)/JRTestPassword/WBLoginSDK/Dependence/AliPay",
+					"$(PROJECT_DIR)/JRTestPassword/WBLoginSDK/Dependence/ISDSDK",
+					"$(PROJECT_DIR)/JRTestPassword/WBLoginSDK/Dependence/ZMSDK",
+					"$(PROJECT_DIR)/JRTestPassword/WBLoginSDK/Dependence/TencentSDK",
+					"$(PROJECT_DIR)/JRTestPassword/WBLoginSDK/Dependence/QQSDK",
+					"$(PROJECT_DIR)/JRTestPassword/WBLoginSDK/Dependence/GateWaySDK",
+				);
 				INFOPLIST_FILE = JRTestPassword/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JRTestPassword/WBLoginSDK/Dependence/SSL",
+					"$(PROJECT_DIR)/JRTestPassword/WBLoginSDK/Dependence/WeiboSDK",
+					"$(PROJECT_DIR)/JRTestPassword/WBLoginSDK/Dependence/WeChatSDK",
+					"$(PROJECT_DIR)/JRTestPassword/WBLoginSDK/Dependence/Pay58",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.58.JRTestPassword;
 				PRODUCT_NAME = "$(TARGET_NAME)";
